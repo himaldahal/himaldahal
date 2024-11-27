@@ -1,1 +1,131 @@
-<h1>Himal is alive.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio site for Himal Dahal showcasing Django, Python, React, and other programming skills.">
+  <meta name="author" content="Himal Dahal">
+  <meta name="keywords" content="portfolio, Django, Python, React, GitHub, software development">
+  <title>Himal Dahal - Portfolio</title>
+
+  <!-- Dynamic Favicon from GitHub Profile -->
+  <link id="dynamic-favicon" rel="icon" href="default-icon.png" type="image/png">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <!-- AOS (Animate on Scroll) for animations -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+    }
+    .bg-primary {
+      background-color: #0d0d0d;
+    }
+    .bg-accent {
+      background-color: #34d399;
+    }
+    .text-accent {
+      color: #34d399;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      transition: transform 0.3s ease-in-out;
+    }
+  </style>
+</head>
+
+<body class="bg-primary text-white">
+
+  <!-- Navigation -->
+  <header class="w-full flex justify-between p-6 bg-accent">
+    <div class="text-2xl font-bold">Himal Dahal</div>
+    <nav>
+      <a href="#about" class="px-4 hover:text-gray-900">About</a>
+      <a href="#projects" class="px-4 hover:text-gray-900">Projects</a>
+      <a href="#contact" class="px-4 hover:text-gray-900">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-600 to-purple-600 text-center p-6" data-aos="fade-up">
+    <div>
+      <h1 class="text-5xl font-bold mb-4">Hello, I'm Himal Dahal</h1>
+      <p class="text-xl mb-6">I specialize in <span class="text-accent">Django</span>, <span class="text-accent">Python</span>, and <span class="text-accent">React</span>. Let's build something amazing!</p>
+      <a href="#contact" class="bg-accent text-black py-2 px-6 rounded-full text-lg font-semibold hover:bg-green-400 transition duration-300">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6" data-aos="fade-up">
+    <h2 class="text-4xl font-bold text-center mb-12">About Me</h2>
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-lg mb-6">I'm a passionate software developer with a strong focus on web development. I love building scalable and efficient applications using Python, Django, and React. My goal is to solve real-world problems through technology.</p>
+      <p class="text-lg">When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, and improving my skills in various programming languages.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-800" data-aos="fade-up">
+    <h2 class="text-4xl font-bold text-center text-white mb-12">My Projects</h2>
+    <div id="projects-container" class="flex flex-wrap justify-center gap-8">
+      <!-- Projects will be dynamically loaded here -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 bg-accent text-center" data-aos="fade-up">
+    <h2 class="text-4xl font-bold text-black mb-12">Contact Me</h2>
+    <p class="text-lg mb-6">Feel free to reach out to me for any inquiries or collaborations. I'm open to opportunities!</p>
+    <a href="mailto:himaldahal005@gmail.com" class="bg-black text-white py-2 px-6 rounded-full text-lg font-semibold hover:bg-gray-900 transition duration-300">Email Me</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-gray-900 text-white">
+    <p>&copy; 2024 Himal Dahal. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Animation Library -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init();
+
+    // Fetch GitHub Avatar as Favicon
+    fetch("https://api.github.com/users/himaldahal")
+      .then(response => response.json())
+      .then(data => {
+        const faviconLink = document.getElementById("dynamic-favicon");
+        if (data.avatar_url) {
+          faviconLink.href = data.avatar_url; // Set the avatar URL as the favicon
+        }
+      })
+      .catch(error => console.error("Error fetching GitHub profile:", error));
+
+    // Fetch GitHub Repositories
+    fetch("https://api.github.com/users/himaldahal/repos?sort=created&per_page=5")  // Fetch repos in descending order of creation
+      .then(response => response.json())
+      .then(data => {
+        const projectsContainer = document.getElementById("projects-container");
+
+        // Loop through the repositories and create cards
+        data.forEach(repo => {
+          const projectCard = document.createElement("div");
+          projectCard.classList.add("card", "w-72", "bg-gray-900", "p-6", "rounded-xl", "shadow-lg", "hover:shadow-xl", "transition-all");
+
+          projectCard.innerHTML = `
+            <img src="https://via.placeholder.com/300x200" alt="${repo.name}" class="rounded-t-xl w-full">
+            <h3 class="text-2xl text-accent font-semibold mt-4">${repo.name}</h3>
+            <p class="text-gray-300 mt-2">${repo.description || "No description available"}</p>
+            <a href="${repo.html_url}" target="_blank" class="text-accent mt-4 block">View Project</a>
+          `;
+
+          projectsContainer.appendChild(projectCard);
+        });
+      })
+      .catch(error => console.error("Error fetching GitHub repos:", error));
+  </script>
+</body>
+</html>
