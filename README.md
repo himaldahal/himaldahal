@@ -46,7 +46,14 @@ I design and build web products end to end: data models, APIs, payment integrati
 <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,linux,git,postman" alt="Docker, Nginx, GitHub Actions, Linux, Git, Postman" /><br>
 <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square" alt="pytest" />
 
-## Projects
+## Open source
+
+| Project | Description | Stack |
+|---|---|---|
+| [**browser-bridge-mcp**](https://github.com/himaldahal/browser-bridge-mcp) | Lets any local MCP client drive your own Chrome through a token-protected localhost WebSocket. 42 tools for tabs, input, monitoring and SEO checks, with human approval for risky actions. | Node.js, Manifest V3 |
+| [**dj-totp-2fa**](https://github.com/himaldahal/dj-totp-2fa) | Two-factor authentication for Django using TOTP (RFC 6238). Replay protection, rate limiting and lockouts, recovery codes, admin protection, themed UI. | Django, Python |
+
+## Other projects
 
 | Project | Description |
 |---|---|
