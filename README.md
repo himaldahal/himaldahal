@@ -1,34 +1,65 @@
-<h1 align="center">Hi 👋, I'm Himal Dahal</h1>
-<h3 align="center">🚀 Full Stack Developer | 🇳🇵 Kathmandu, Nepal</h3>
+# Himal Dahal
 
-<p align="left"> <a href="https://twitter.com/__himaldahal" target="blank"><img src="https://img.shields.io/twitter/follow/__himaldahal?logo=twitter&style=for-the-badge" alt="__himaldahal" /></a> </p>
+**Backend Developer · Python & Django · Nepal**
 
-- 🔭 Currently building [Personal Finance Manager](https://github.com/himaldahal/finance-manger) to simplify budget tracking.
-- 🌱 Expanding my stack: **Django Rest Framework, MERN Stack**
-- 👯 Open to collaboration on [iLearn](https://github.com/himaldahal/ilearn), a self-paced learning platform.
-- 📝 Sharing insights on tech and development on [my blog](https://blog.himald.com.np/)
-- 📫 Reach me at **hi@himald.com.np**
-- 
+I design and build web products end to end: data models, APIs, payment integrations, deployment and the interface on top.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/__himaldahal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="__himaldahal" height="30" width="40" /></a>
-<a href="https://fb.com/astabakraa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="astabakraa" height="30" width="40" /></a>
-<a href="https://instagram.com/astabakraa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="astabakraa" height="30" width="40" /></a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/himal-dahal/) · [Email](mailto:hi@himald.com.np) · [Instagram](https://www.instagram.com/himaldahall/)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/>
-  </a>
-  <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" alt="bootstrap" width="40" height="40"/>
-  </a> 
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+---
 
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=himaldahal&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
+## Skillset
 
+- **Backend engineering:** designing Django and DRF applications, REST APIs, database schemas and background jobs.
+- **Payments and fintech:** gateway integrations for the Nepali market (eSewa, Khalti, Fonepay, ConnectIPS), orders and invoicing.
+- **Security and authentication:** TOTP two-factor authentication, rate limiting, CSRF protection, account lockout.
+- **Product development:** taking an idea to a deployed product, from business web apps and staff dashboards to reusable packages.
+- **Developer tooling:** browser extensions and MCP servers that connect AI clients to real tools.
+- **Offline-first and progressive web apps:** installable apps that work without a connection and sync later.
 
+## Currently working on
+
+**LearnHub** is a self-hosted learning platform I'm building to take myself from Python fundamentals to backend and interview readiness.
+
+- Course content from Python through algorithms, Django, backend engineering and system design
+- LeetCode-style problems that run in the browser, plus runnable SQL
+- Automatic progress tracking, spaced review, exams, mock interviews and flashcards
+- Built with Django 5.2, PostgreSQL and Docker
+
+## Tech stack
+
+**Languages**<br>
+<img src="https://skillicons.dev/icons?i=py,js,ts,bash" alt="Python, JavaScript, TypeScript, Shell" /> &nbsp;SQL
+
+**Backend**<br>
+<img src="https://skillicons.dev/icons?i=django,redis" alt="Django, Redis" /><br>
+<img src="https://img.shields.io/badge/Django_REST_Framework-A30000?style=flat-square" alt="Django REST Framework" /> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square" alt="Celery" /> <img src="https://img.shields.io/badge/Gunicorn-499848?style=flat-square" alt="Gunicorn" />
+
+**Databases**<br>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb" alt="PostgreSQL, MySQL, SQLite, MongoDB" />
+
+**Frontend**<br>
+<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,html,css" alt="React, Tailwind CSS, Bootstrap, HTML, CSS" /><br>
+<img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square" alt="Progressive Web Apps" /> <img src="https://img.shields.io/badge/Chrome_Extensions_(MV3)-4285F4?style=flat-square" alt="Manifest V3 extensions" />
+
+**DevOps and tooling**<br>
+<img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,linux,git,postman" alt="Docker, Nginx, GitHub Actions, Linux, Git, Postman" /><br>
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square" alt="pytest" />
+
+## Projects
+
+| Project | Description |
+|---|---|
+| [**Inkwell**](https://github.com/himaldahal/inkwell) | Offline-first handwriting and note-taking PWA with cloud sync. |
+| [**iLearn**](https://github.com/himaldahal/ilearn) | Collaborative platform for creating groups, sharing resources and managing PDFs. |
+| [**Finance Manager**](https://github.com/himaldahal/finance-manager) | Personal finance app with login, transaction handling and charts. |
+
+Most of my professional work is in private repositories and isn't listed here.
+
+## Areas I want to explore
+
+- Algorithms and data structures at an advanced level
+- System design and distributed backend architecture
+- AI-powered developer tools and agent integrations
+- Fintech and payment infrastructure
+- Performance, scaling and observability for production Django
